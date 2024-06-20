@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Implementacio de la funcion add
 int add(int a, int b);
 int add1(int* a, int* b);
 int add2(int* a, int* b, int* c);
 
+// Funcion principal
 int main(int argc, char const *argv[])
 {
     int x = 7;
